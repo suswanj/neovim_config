@@ -1,7 +1,6 @@
 -- Entry point for neovim config
 -- load Lazy and options
--- require('config.lazy')
-require('config.options')
-require('config.keymaps')
--- require('plugins')
-require('config.autocmds')
+require("config.options")
+require("config.keymaps")
+require("config.autocmds")
+require("config.lazy")
