@@ -1,7 +1,7 @@
 
 # Neovim Config
 
-*Folder Structure
+* Folder Structure
 ```
 .
 ├── init.lua
