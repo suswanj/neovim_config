@@ -7,7 +7,7 @@ local opts = { noremap = true, silent = true }
 local opt = { silent = true }
 
 -- set space as leader key
-map("", "<Space>", "<Nop>", opts)               -- remove space keybindings
+map("", "<Space>", "<Nop>", opts) -- remove space keybindings
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
@@ -22,6 +22,9 @@ vim.g.maplocalleader = " "
 --------------------------------------------
 --- Normal Mode Keymappings
 --------------------------------------------
+-- Save file with <C-s>
+map("n", "<C-s>", ":w<CR>", opts)
+
 -- Shift focus between windows with <C-hjkl> (cntl)
 map("n", "<C-h>", "<C-w>h", opts)
 map("n", "<C-j>", "<C-w>j", opts)
@@ -45,7 +48,6 @@ map("n", "<A-k>", ":m .-2<CR>==", opts)
 --------------------------------------------
 --- Insert Mode Keymappings
 --------------------------------------------
-
 
 --------------------------------------------
 --- Visual Mode Keymappings
