@@ -51,6 +51,6 @@
 :) Peace Out!
 
 
--- Author: Suswan Joglekar
--- Github: [suswanj](https://github.com/suswanj)
--- Mail: suswan.joglekar@gmail.com
+- Author: Suswan Joglekar
+- Github: [suswanj](https://github.com/suswanj)
+- Mail: suswan.joglekar@gmail.com
