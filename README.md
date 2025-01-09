@@ -14,8 +14,12 @@
 │   │   ├── lazy.lua
 │   │   └── options.lua
 │   └── plugins
-│       ├── alpha.lua
-│       └── colortheme.lua
+│       ├── colortheme.lua
+│       ├── comment.lua
+│       ├── lualine.lua
+│       ├── markdown.lua
+│       ├── toggleterm.lua
+│       └── treesitter.lua
 └── README.md
 ```
 
@@ -29,7 +33,7 @@
   ```
 - I have modified colortheme and alpha only
 - You can modify and use plugins by adding them to
-```lua/plugins```
+  ```lua/plugins```
 
 
 
