@@ -2,26 +2,26 @@
 # Neovim Config
 
 * Folder Structure
-```
-.
-├── init.lua
-├── lazy-lock.json
-├── lazyvim.json
-├── lua
-│   ├── config
-│   │   ├── autocmds.lua
-│   │   ├── keymaps.lua
-│   │   ├── lazy.lua
-│   │   └── options.lua
-│   └── plugins
-│       ├── colortheme.lua
-│       ├── comment.lua
-│       ├── lualine.lua
-│       ├── markdown.lua
-│       ├── toggleterm.lua
-│       └── treesitter.lua
-└── README.md
-```
+  ```
+  .
+  ├── init.lua
+  ├── lazy-lock.json
+  ├── lazyvim.json
+  ├── lua
+  │   ├── config
+  │   │   ├── autocmds.lua
+  │   │   ├── keymaps.lua
+  │   │   ├── lazy.lua
+  │   │   └── options.lua
+  │   └── plugins
+  │       ├── alpha.lua
+  │       ├── colortheme.lua
+  │       ├── comment.lua
+  │       ├── lualine.lua
+  │       ├── markdown.lua
+  │       └── toggleterm.lua
+  └── README.md
+  ```
 
 - This is a Fully Functioning Neovim config
 - LazyVim plugin manager is used to manage all the plugins
