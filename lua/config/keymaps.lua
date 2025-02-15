@@ -97,3 +97,13 @@ map("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
 map("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 map("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 map("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
+
+
+--------------------------------------------
+--- Lazy keymaps
+--------------------------------------------
+map("n", "<leader>l", "<cmd>Lazy<CR>", opts)
+map("n", "<leader>lh", "<cmd>Lazy health<CR>", opts)
+map("n", "<leader>ll", "<cmd>Lazy log<CR>", opts)
+map("n", "<leader>li", "<cmd>Lazy install<CR>", opts)
+map("n", "<leader>ls", "<cmd>Lazy sync<CR>", opts)
