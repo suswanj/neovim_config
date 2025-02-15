@@ -48,9 +48,6 @@ map("n", "<S-h>", ":bprevious<CR>", opts)
 map("n", "<A-j>", ":m .+1<CR>==", opts)
 map("n", "<A-k>", ":m .-2<CR>==", opts)
 
--- Open Explorer
-map("n", "<leader>ex", vim.cmd.Ex)
-
 -- Window stuff
 map("n", "<leader>vs", "<C-w>v", opts)
 map("n", "<leader>hs", "<C-w>s", opts)
