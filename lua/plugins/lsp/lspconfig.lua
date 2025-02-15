@@ -16,7 +16,7 @@ return {
 
         vim.api.nvim_create_autocmd("LspAttach", {
             group = vim.api.nvim_create_augroup("UserLspConfig", {}),
-            callback = function()
+            callback = function(ev)
                 local opts = { buffer = ev.buf, silent = true }
 
                 map("n", "gR", "<cmd>Telescope lsp_references<CR>", opts)
