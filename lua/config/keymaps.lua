@@ -22,6 +22,9 @@ vim.g.maplocalleader = " "
 --------------------------------------------
 --- Normal Mode Keymappings
 --------------------------------------------
+-- Exit neovim with <leader>qq
+map("n", "<leader>qq", ":qa<CR>", opts)
+
 -- Save file with <C-s>
 map("n", "<C-s>", ":w<CR>", opts)
 
