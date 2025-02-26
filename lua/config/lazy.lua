@@ -22,7 +22,13 @@ require("lazy").setup({
 	spec = {
 		{ import = "plugins" },
         { import = "plugins.lsp" },
+
 	},
+    dir = "~/.config/nvim/lua/plugins/xox",
+    name = "xox",
+    config = function ()
+        vim.cmd [[ command! XOX lua require("xox").start() ]]
+    end,
 
 	checker = { enable = true },
 })
