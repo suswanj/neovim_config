@@ -43,9 +43,11 @@ map("n", "<C-Down>", ":resize +2<CR>", opts)
 map("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 map("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
--- Navigate buffers with <S-hl> (shift)
+-- Navigate buffers with <S-hl> (shift),
+-- close with <leader>bd
 map("n", "<S-l>", ":bnext<CR>", opts)
 map("n", "<S-h>", ":bprevious<CR>", opts)
+map("n", "<leader>bd", ":bdelete<CR>", opts)
 
 -- Move text with <A-jk> (alt)
 map("n", "<A-j>", ":m .+1<CR>==", opts)
