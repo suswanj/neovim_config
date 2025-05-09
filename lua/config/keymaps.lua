@@ -32,10 +32,8 @@ map("n", "<C-s>", ":w<CR>", opts)
 map("n", "<S-s>", ":source %<CR>", opts)
 
 -- Shift focus between windows with <C-hjkl>
-map("n", "<C-h>", "<C-w>h", opts)
-map("n", "<C-j>", "<C-w>j", opts)
-map("n", "<C-k>", "<C-w>k", opts)
-map("n", "<C-l>", "<C-w>l", opts)
+map("n", "<A-h>", "<C-w>h", opts)
+map("n", "<A-l>", "<C-w>l", opts)
 
 -- Resize windows with arrow keys
 map("n", "<C-Up>", ":resize -2<CR>", opts)
@@ -95,10 +93,10 @@ map("x", "<A-k>", ":m '<-2<CR>gv=gv", opts)
 --- Terminal Mode Keymappings
 --------------------------------------------
 -- Better terminal navigation
-map("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
-map("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
-map("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
-map("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
+-- map("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
+-- map("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
+-- map("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
+-- map("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 
 --------------------------------------------
